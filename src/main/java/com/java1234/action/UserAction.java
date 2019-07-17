@@ -21,6 +21,9 @@ import java.sql.ResultSet;
 
 public class UserAction extends ActionSupport {
 
+    /**
+     *
+     */
     private static final long serialVersionUID = 1L;
 
     private String page;
@@ -169,12 +172,7 @@ public class UserAction extends ActionSupport {
         return null;
     }
 
-    /**
-     * 导出用户信息
-     *
-     * @return
-     * @throws Exception
-     */
+
     public String export() throws Exception {
         Connection con = null;
         try {

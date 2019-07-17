@@ -32,7 +32,7 @@ public class ExcelUtil {
         POIFSFileSystem fs = new POIFSFileSystem(inp);
         Workbook wb = new HSSFWorkbook(fs);
         Sheet sheet = wb.getSheetAt(0);
-        // 获取列数
+        // ��ȡ����
         int cellNums = sheet.getRow(0).getLastCellNum();
         int rowIndex = 1;
         while (rs.next()) {
